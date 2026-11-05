@@ -7,4 +7,5 @@ Compilación y ejecución:
 Requiere un compilador C++ (g++). Desde la raíz del proyecto, ejecutar:
 
 g++ -std=c++11 src/main.cpp src/funciones/*.cpp -o tp.exe
+
 .\tp.exe
