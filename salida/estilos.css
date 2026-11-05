@@ -1,0 +1,139 @@
+body {
+  background-color: #0b1e1b;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #95d5b2;
+}
+
+.contenedor {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.mapa {
+  width: 900px;
+  height: 600px;
+  overflow: auto;
+  border: 2px solid #2d6a4f;
+  background-color: #081c15;
+}
+
+table {
+  border-collapse: collapse;
+  width: max-content;
+}
+
+td {
+  min-width: 30px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #29443d;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.vacia {
+  background-color: #081c15;
+}
+
+.movimiento {
+  background-color: #2d6a4f;
+  color: white;
+}
+
+.despegue {
+  background-color: #ffd60a;
+  color: black;
+}
+
+.aterrizaje {
+  background-color: #4ea8de;
+  color: white;
+}
+
+.kamikaze {
+  background-color: #d00000;
+  color: white;
+}
+
+.granada1 {
+  background-color: #f77f00;
+  color: white;
+}
+
+.granada2 {
+  background-color: #fcbf49;
+  color: black;
+}
+
+.espera {
+  background-color: #90be6d;
+  color: black;
+}
+
+.numero-columna {
+  min-width: 30px;
+  width: 30px;
+  height: 30px;
+  background-color: #1b4332;
+  color: white;
+  border: 1px solid #40916c;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.numero-fila {
+  min-width: 40px;
+  width: 40px;
+  height: 30px;
+  background-color: #1b4332;
+  color: white;
+  border: 1px solid #40916c;
+  text-align: center;
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+.esquina {
+  min-width: 40px;
+  width: 40px;
+  height: 30px;
+  background-color: #081c15;
+  color: white;
+  border: 1px solid #40916c;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.leyenda {
+  min-width: 220px;
+  background-color: #081c15;
+  border: 2px solid #2d6a4f;
+  padding: 15px;
+}
+
+.leyenda h2 {
+  margin-top: 0;
+  color: #95d5b2;
+}
+
+.cuadro {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  vertical-align: middle;
+  border: 1px solid white;
+}
